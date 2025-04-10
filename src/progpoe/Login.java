@@ -74,7 +74,7 @@ public class Login {
     
     public boolean validPasswordComplexity(String Password){
       return (Password.length()>=8 && Password.chars().anyMatch(Character::isUpperCase) &&  Password.chars().anyMatch(Character::isDigit)
-               && (Password.contains("@") || Password.contains("#") || Password.contains("&") || Password.contains("%")));  
+               && (Password.contains("@") || Password.contains("#") || Password.contains("&") || Password.contains("%") && Password.length() < 20));  
     }
     
     
