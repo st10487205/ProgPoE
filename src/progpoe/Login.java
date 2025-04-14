@@ -2,6 +2,7 @@
     NTOKOZO NHLAKANIPHO ZULU
     ST10487205
     PoE PART 1
+    Login Class
  */
 package progpoe;
 
