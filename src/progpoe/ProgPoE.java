@@ -102,9 +102,9 @@ public class ProgPoE {
    //if both the username and password is correct, the user logs in      
     if(userDetails.checkUserName(username) == true && userDetails.checkPassword(password) == true){
         System.out.println("Welcome " + userDetails.getName() + ", " + userDetails.getSurname() + " it is great to see you again.");
-    } /*else {
+    } else {
         System.out.println("Username or password incorrect, please try again.");
-    }*/      
+    }      
          
   }
     
