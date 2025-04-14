@@ -2,7 +2,7 @@
     NTOKOZO NHLAKANIPHO ZULU
     ST10487205
     PROG5121 PoE
-    JUnit TEST
+    JUnit Tests
  */
 package progpoe;
 
